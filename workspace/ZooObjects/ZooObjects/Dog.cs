@@ -14,6 +14,7 @@ namespace ZooObjects
 
         public override string Describe()
         {
+            // C# base class access
             string result = base.Describe();
             result += " In fact, it's a dog!";
             return result;
