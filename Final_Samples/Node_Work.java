@@ -1,4 +1,3 @@
-
 public class Node_Work {
 
 	/**
@@ -13,6 +12,8 @@ public class Node_Work {
 		// TODO Auto-generated method stub
 		Node start, tail, next;
 		start = null;
+		
+		start = new Node(rand(), null);
 		tail = start;
 		for(int t = 0; t < 10; t++){
 		next = new Node(rand(), null);
@@ -25,7 +26,7 @@ public class Node_Work {
 		while(start != null){
 			
 			System.out.println(start.getItem());
-			start.getNext();
+			atart = start.getNext();
 		}
 	}
 
